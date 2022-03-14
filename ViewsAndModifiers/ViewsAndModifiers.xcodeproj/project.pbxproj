@@ -13,6 +13,7 @@
 		72EE204527DF07130050227C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72EE204427DF07130050227C /* Preview Assets.xcassets */; };
 		72EE206A27DF0E100050227C /* WeSplit2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EE206927DF0E100050227C /* WeSplit2.0.swift */; };
 		72EE206C27DF10B70050227C /* GuessTheFlag2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EE206B27DF10B70050227C /* GuessTheFlag2.0.swift */; };
+		72EE206E27DF59CE0050227C /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EE206D27DF59CE0050227C /* ViewsAndModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		72EE205427DF07140050227C /* ViewsAndModifiersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewsAndModifiersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EE206927DF0E100050227C /* WeSplit2.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplit2.0.swift; sourceTree = "<group>"; };
 		72EE206B27DF10B70050227C /* GuessTheFlag2.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag2.0.swift; sourceTree = "<group>"; };
+		72EE206D27DF59CE0050227C /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				72EE203D27DF070C0050227C /* ViewsAndModifiersApp.swift */,
 				72EE203F27DF070C0050227C /* ContentView.swift */,
+				72EE206D27DF59CE0050227C /* ViewsAndModifiers.swift */,
 				72EE206B27DF10B70050227C /* GuessTheFlag2.0.swift */,
 				72EE206927DF0E100050227C /* WeSplit2.0.swift */,
 				72EE204127DF07130050227C /* Assets.xcassets */,
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72EE206E27DF59CE0050227C /* ViewsAndModifiers.swift in Sources */,
 				72EE206A27DF0E100050227C /* WeSplit2.0.swift in Sources */,
 				72EE204027DF070C0050227C /* ContentView.swift in Sources */,
 				72EE206C27DF10B70050227C /* GuessTheFlag2.0.swift in Sources */,
