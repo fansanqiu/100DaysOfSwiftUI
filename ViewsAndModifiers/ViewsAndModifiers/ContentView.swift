@@ -22,7 +22,7 @@ extension View{
 }
 
 
-struct Watermark: ViewModifier{
+struct Watermark1: ViewModifier{
     var text: String
     
     func body(content: Content) -> some View {
@@ -38,8 +38,8 @@ struct Watermark: ViewModifier{
 }
 
 extension View{
-    func watermarked(with text: String) -> some View{
-        modifier(Watermark(text: text))
+    func watermarked1(with text: String) -> some View{
+        modifier(Watermark1(text: text))
     }
 }
 
@@ -53,10 +53,10 @@ struct ContentView: View {
                 .customTextStyled()
             Color.blue
                 .frame(width: 300, height: 200)
-                .watermarked(with: "Hello World!")
+                .watermarked1(with: "Hello World!")
             Text("Oh my jesus")
                 .frame(width: 300, height: 200)
-                .watermarked(with: "Jesus")
+                .watermarked1(with: "Jesus")
         }
     }
 }
