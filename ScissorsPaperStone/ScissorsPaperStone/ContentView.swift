@@ -8,19 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var pitOption = ["Scissors", "Paper", "Stone"]
+    @State private var options = ["✂️", "📄", "🪨"]
     
     var body: some View {
         VStack {
-            Button("Scissors", action: clickScissors)
-            Button("Paper", action: clickPaper)
-            Button("Stone", action: clickStone)
+            Button("✂️"){ }
+            Button("📄"){ }
+            Button("🪨"){ }
         }
     }
-    func clickScissors(){
-        
-    }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
