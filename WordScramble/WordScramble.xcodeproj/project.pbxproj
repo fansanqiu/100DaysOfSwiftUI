@@ -11,6 +11,7 @@
 		7207982D27E4396D00E336AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207982C27E4396D00E336AF /* ContentView.swift */; };
 		7207982F27E4396F00E336AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7207982E27E4396F00E336AF /* Assets.xcassets */; };
 		7207983227E4396F00E336AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7207983127E4396F00E336AF /* Preview Assets.xcassets */; };
+		721CBDFC27E84B4F009EDC45 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 721CBDFB27E84B4F009EDC45 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		7207983127E4396F00E336AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7207983727E4396F00E336AF /* WordScrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7207984127E4396F00E336AF /* WordScrambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		721CBDFB27E84B4F009EDC45 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				7207982C27E4396D00E336AF /* ContentView.swift */,
 				7207982E27E4396F00E336AF /* Assets.xcassets */,
 				7207983027E4396F00E336AF /* Preview Content */,
+				721CBDFB27E84B4F009EDC45 /* start.txt */,
 			);
 			path = WordScramble;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7207983227E4396F00E336AF /* Preview Assets.xcassets in Resources */,
+				721CBDFC27E84B4F009EDC45 /* start.txt in Resources */,
 				7207982F27E4396F00E336AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +393,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U73PK5U3T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -417,6 +422,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U73PK5U3T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
